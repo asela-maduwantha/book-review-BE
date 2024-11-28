@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/book-reviews")
+@RequestMapping("/reviews")
 @Tag(name = "Book Reviews", description = "Book Review Management APIs")
 public class BookReviewController {
     private final BookReviewService bookReviewService;

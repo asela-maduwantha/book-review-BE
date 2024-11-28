@@ -62,11 +62,11 @@ mvn spring-boot:run
 
 ## API Endpoints
 
-- **Create a Book Review**: `POST /api/book-reviews`
-- **Get All Book Reviews**: `GET /api/book-reviews`
-- **Get Book Review by ID**: `GET /api/book-reviews/{id}`
-- **Update Book Review**: `PUT /api/book-reviews/{id}`
-- **Delete Book Review**: `DELETE /api/book-reviews/{id}`
+- **Create a Book Review**: `POST /reviews`
+- **Get All Book Reviews**: `GET /reviews`
+- **Get Book Review by ID**: `GET /reviews/{id}`
+- **Update Book Review**: `PUT /reviews/{id}`
+- **Delete Book Review**: `DELETE /reviews/{id}`
 
 ### API Documentation
 
